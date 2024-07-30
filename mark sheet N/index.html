@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mark Sheet</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+  <h1>My Mark Sheet</h1>
+  <table class="student">
+   <tr><th>Name : </th><td colspan="3"><span>Nehal Gohar</span></td></tr>
+   <tr><th>Class : </th><td><span>2nd Year</span></td><th>Section : </th><td><span>A</span></td></tr>
+   <tr><th>Roll No. : </th><td colspan="3"><span>20000</span></td></tr>
+  </table>
+
+<table class="table">
+  <tr>
+    <th>Subject</th>
+    <th>Marks</th>
+    <th>Grade</th>
+  </tr>
+  <tr>
+    <td>Data Structure</td>
+    <td><input type="number" placeholder="Enter Marks" class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  <tr>
+    <td>Operating Systems</td>
+    <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  <tr>
+    <td>Engineering Chemistry</td>
+    <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  <tr>
+    <td>Engineering Graphics</td>
+    <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  <tr>
+    <td>Computer Programming</td>
+    <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  <tr>
+    <td>Discrete Mathematics</td>
+    <td><input type="number" placeholder="Enter Marks..." class="marks"/></td>
+    <td class="grade"></td>
+  </tr>
+  
+</table>
+<table>
+  <tr>
+    <td>Total Marks :</td>
+    <td id="totalmarks"></td>
+  </tr>
+  <tr>
+    <td>Perentage :</td>
+    <td id="percentage"></td>
+  </tr>
+  <tr>
+    <td>Final Grade :</td>
+    <td id="finalgrade"></td>
+  </tr>
+</table>
+</div>
+<script src="./first.js"></script>
+</body>
+</html>
